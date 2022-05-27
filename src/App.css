@@ -1,38 +1,326 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroud
+{
+  background-image: url(../src/images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200vh;
+  height: 600px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header div{
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.commn{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.arrange-left{
+  float: left;
+}
+.navbar ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style: none;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+.width-25{
+  width: 25%;
+}
+.status{
+  text-align: right;
+  margin-top: 10px;
+}
+.navbar-50{
+  width: 50%;
+  
+}
+.width-25{
+  width: 25%;
+}
+.effects li{
+ margin-right:70px;
+ font-size: 16px;
+}
+.homeabout{
+  margin-top: 8px;
+}
+.status span:first-of-type{
+  margin-right: 20px;
+}
+.logo img{
+  width:230px;
+}
+.btnj{
+  border: 1px solid #225779;
+  background-color: #225779;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.affect{
+  height: 150px;
+  width: 498px;
+  margin-top: 50px;
+}
+.text p{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2%;
+  margin-top: 23px;
+}
+.buttonS
+{
+  margin-left: 19px;
+  margin-top: 5%;
+}
+.buttonS button:first-of-type{
+    height: 35px;
+    margin-right: 25px;
+    width: 225px;
+    background-color: #225779;
+    border-radius: 5px;
+    border: none;
+}
+.second2{
+    border-radius: 5px;
+    border: 2px solid #225779;
+    width: 225px;
+    height: 35px;
+}
+.buttonS span{
+  position: absolute;
+  margin-top: 2px;
+}
+.Exp{
+  width: 828px;
+  margin-left: 22%;
+  margin-top: 15px;
+}
+.videoframe
+{
+  width: 200vh;
+  height:400px;
+}
+.rowsE{
+  margin-top: 180px;
+  margin-left: 1%;
+}
+.choose{
+  width: 500px;
+  margin-left: 10%;
+}
+.rowsE div p{
+  margin-left: 15%;
+  font-weight: 400;
+}
+.book{
+  margin-left: 15%;
+  font-weight: 700;
+  color: #225779;
+}
+.book span{
+  position: absolute;
+  margin-top: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fastd{
+  margin-left: 3%;
+}
+.fastd img{
+  width: 90px;
+  border-radius:45%;
+  padding: 25px;
+  background-color: rgb(221, 242, 255);
+}
+.supprt img{
+  width: 90px;
+  border-radius: 45px;
+  padding: 25px;
+  background-color: rgb(221, 242, 255);
+}
+
+.fastd h6{
+  color: #225779;
+  margin-top: 5px;
+  font-weight:700 ;
+  margin-left: 12px;
+}
+.supprt h6{
+  color: #225779;
+  margin-top: 5px;
+  font-weight:700 ;
+  margin-left: 12px;
+}
+.communderline{
+  background-color: #57CC98;
+  width: 50px;
+  height: 2px;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+.plenty img{
+  width: 800px;
+  margin-left: 26%;
+  margin-top: 50px;
+}
+.arrangebtn{
+ justify-content: space-around;
+ margin-left: 22%;
+ margin-right: 18%;
+}
+.arrangebtn button{
+  border: 1px solid #225779;
+  width: 150px;
+  border-radius: 5px;
+  padding: 1px;
+}
+.para{
+  margin-top: 20px;
+  margin-left: 35%;
+  font-size: 22px;
+}
+.cards{
+  margin-left: 12%;
+  margin-right: 5%;
+}
+.cardd img{
+  padding: 15px;
+  margin-left: 30px;
+  position: relative;
+}
+.cardd{
+  background-color: #C9FFE2;
+  border: none;
+  height: 230px;
+  width: 262px;
+  margin-right: 45px;
+}
+.cardd button{
+  position: absolute;
+  margin-top: -15px;
+  background-color: #225779;
+  width: 262px;
+  margin-left: -17px;
+  color:#ffffff;
+}
+.carddshirt{
+  background-color: #C9FFE2;
+  border: none;
+  height: 165px;
+  width: 262px;
+  margin-right: 45px;
+}
+.carddshirt img{
+  position: relative;
+  margin-left: 24%;
+  height: 142px;
+}
+.carddcake{
+    background-color: #C9FFE2;
+    border: none;
+    height: 230px;
+    width: 262px;
+    margin-right: 45px;
+}
+.carddcake img{
+  height: 206px;
+  width: 206px;
+  position: relative;
+  margin-left:10%;
+  padding: 15px;
+}
+.cardcloth{
+  background-color: #C9FFE2;
+  border: none;
+  height: 165px;
+  width: 262px;
+  margin-right: 45px;
+}
+.cardcloth img{
+  position: relative;
+  margin-left: 17%;
+  height: 168px;
+  width: 168px;
+}
+
+.cardteddy img{
+  position: relative;
+  padding: 10px;
+  margin-left: 18%;
+  height: 168px;
+  width: 168px;
+}
+.cardteddy{
+  background-color: #C9FFE2;
+  border: none;
+  height: 165px;
+  width: 262px;
+  margin-right: 25px;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+.cardflower img{
+  height: 216px;
+  width: 206px;
+  position: relative;
+  margin-left:10%;
+  padding: 15px;
+}
+.cardflower{
+  background-color: #C9FFE2;
+  margin-top: -23px;
+  border: none;
+  height: 230px;
+  width: 262px;
+  margin-right: 45px;
+}
+.cardwatch img{
+  position: relative;
+  padding: 15px;
+  margin-left: 30%;
+  height: 168px;
+  width: 98px;
+}
+.cardwatch{
+  background-color: #C9FFE2;
+  border: none;
+  height: 165px;
+  width: 262px;
+  margin-right: 25px;
+  margin-top: 40px;
+  margin-right: 45px;
+}
+
+.cardbatman img{
+  height: 230px;
+  width: 216px;
+  position: relative;
+  margin-left:10%;
+  padding: 15px;
+}
+.cardbatman{
+  background-color: #C9FFE2;
+  margin-top: -23px;
+  border: none;
+  height: 230px;
+  width: 262px;
+  margin-right: 45px;
+}
+.explo{
+  margin-left: 26%;
+  margin-top: 15px;
+  background-color: white;
+  color: #225779;
+  font-size: 28px;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+}
+.explo span{
+  position: absolute;
+  margin-top: 3px;
 }
